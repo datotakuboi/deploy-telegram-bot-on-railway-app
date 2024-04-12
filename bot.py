@@ -21,8 +21,8 @@ from aiogram.contrib.middlewares.logging import LoggingMiddleware
 
 
 
-API_TOKEN = '5730303832:AAGE3lbjVqNaqJ0bUww-eRUzW_dNTkrJXrg'
-DB_URI ="postgresql://postgres:SEvju9ySxpC7lfoeXwwU@containers-us-west-79.railway.app:7370/railway"
+API_TOKEN = '6996878414:AAHop0WV5YYUGYbYc8D3cZ7TK90Bigd3ESA'
+DB_URI ="http://localhost:3000/api/v1/prediction/7a1d38f2-54c8-401a-8356-d94773b5babf"
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
